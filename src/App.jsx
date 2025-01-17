@@ -90,6 +90,15 @@ function App() {
       ),
       editingClient: null,
     }));
+
+    localStorage.setItem(
+      "clients",
+      JSON.stringify(
+        state.clients.map((data) =>
+          data.id === updatedClient.id ? updatedClient : data
+        )
+      )
+    );
   };
 
   const isEmailUnique = (email, currentId) => {
