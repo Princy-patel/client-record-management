@@ -1,32 +1,36 @@
 
 ## Installation
-
-### Prerequisites
-
-- Ensure you have Node.js and npm (Node Package Manager) installed.
-
-### Steps to Run the Application Locally
-
-1 Clone this repository to your local machine:
+1. Clone the repository:
 
 ```bash
   git clone https://github.com/Princy-patel/client-record-management.git
+
 ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd client-records-management ```
+2. Navigate into the project directory:
 
-3. Install dependencies using npm:
-
- ```bash
-  npm install
+```bash
+cd client-records-management
 ```
 
-4. Start the development server:
+3. Install the dependencies:
+```bash
+npm install
+```
 
- ```bash
-   npm run dev
-   ```
-
+4. Run the development server:
+```bash
+npm run dev
+```
 5. Open your browser and visit http://localhost:5173 to view the application.
+
+## Deployment
+
+The application is deployed and can be accessed online:
+
+https://client-record-management.netlify.app/
+
+## Thank you for checking out this project!
+
+
+
